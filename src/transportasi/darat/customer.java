@@ -10,6 +10,8 @@ public class customer {
     private String Firstname;
     private String Surname;
     private String Address;
+    private String Postcode;
+    
     
     public String getCustomerID() {
         return CustomerID;
