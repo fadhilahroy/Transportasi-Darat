@@ -7,6 +7,9 @@ package transportasi.darat;
 
 public class customer {
     private String CustomerID;
+    private String Firstname;
+    private String Surname;
+    private String Address;
     
     public String getCustomerID() {
         return CustomerID;
