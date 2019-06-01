@@ -6,6 +6,16 @@
 package transportasi.darat;
 
 public class customer {
+    private String CustomerID;
+    
+    public String getCustomerID() {
+        return CustomerID;
+    }
+
+    public void setCustomerID(String CustomerID) {
+        this.CustomerID = CustomerID;
+    }
+    
     public void customer(){
         System.out.println("Ini adalah kelas customer");
     }
