@@ -17,6 +17,7 @@ public class Driver {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Ini adalah drivernya");
+        System.out.println("Test1");
     }
     
 }
