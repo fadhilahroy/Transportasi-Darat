@@ -11,6 +11,10 @@ public class customer {
     private String Surname;
     private String Address;
     private String Postcode;
+    private String Town;
+    private String ProveofID;
+    private Double DownPayment;
+    private Double Deposit;
     
     
     public String getCustomerID() {
@@ -50,6 +54,30 @@ public class customer {
     public void setPostcode(String Postcode) {
         this.Postcode = Postcode;
     }
+    
+    public String getTown() {
+        return Town;
+    }
+
+    public void setTown(String Town) {
+        this.Town = Town;
+    }
+    public String getProveofID() {
+        return ProveofID;
+    }
+
+    public void setProveofID(String ProveofID) {
+        this.ProveofID = ProveofID;
+    }
+    public Double getDownPayment() {
+        return DownPayment;
+    }
+
+    public void setDownPayment(Double DownPayment) {
+        this.DownPayment = DownPayment;
+    }
+    
+
     
     public void customer(){
         System.out.println("Ini adalah kelas customer");
