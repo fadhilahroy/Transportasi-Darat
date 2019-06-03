@@ -20,6 +20,13 @@ public class customer {
     public void setCustomerID(String CustomerID) {
         this.CustomerID = CustomerID;
     }
+    public String getFirstname() {
+        return Firstname;
+    }
+
+    public void setFirstname(String Firstname) {
+        this.Firstname = Firstname;
+    }
     
     public void customer(){
         System.out.println("Ini adalah kelas customer");
