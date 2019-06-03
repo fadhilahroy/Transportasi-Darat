@@ -28,6 +28,14 @@ public class customer {
         this.Firstname = Firstname;
     }
     
+    public void setSurname(String Surname) {
+        this.Surname = Surname;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+    
     public void customer(){
         System.out.println("Ini adalah kelas customer");
     }
