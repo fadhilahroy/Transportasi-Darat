@@ -23,6 +23,10 @@ public class customer {
     public String getFirstname() {
         return Firstname;
     }
+    
+    public String getSurname() {
+        return Surname;
+    }
 
     public void setFirstname(String Firstname) {
         this.Firstname = Firstname;
@@ -34,6 +38,17 @@ public class customer {
 
     public String getAddress() {
         return Address;
+    }
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
+
+    public String getPostcode() {
+        return Postcode;
+    }
+
+    public void setPostcode(String Postcode) {
+        this.Postcode = Postcode;
     }
     
     public void customer(){
