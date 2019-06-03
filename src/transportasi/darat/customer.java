@@ -76,6 +76,13 @@ public class customer {
     public void setDownPayment(Double DownPayment) {
         this.DownPayment = DownPayment;
     }
+    public Double getDeposit() {
+        return Deposit;
+    }
+
+    public void setDeposit(Double Deposit) {
+        this.Deposit = Deposit;
+    }
     
 
     
