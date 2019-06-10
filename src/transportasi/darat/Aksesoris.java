@@ -10,6 +10,11 @@ package transportasi.darat;
  * @author ApemKukus
  */
 public class Aksesoris {
+        private double iStereo = 103.49;
+        private double Modified = 500.78;
+        private double Customised = 2000.49;
+        private double Leather = 1003.90;
+        private double GPS = 180.29;
 
     public double getiStereo() {
         return iStereo;
@@ -52,11 +57,13 @@ public class Aksesoris {
     }
     
     
-        private double iStereo = 103.49;
-        private double Modified = 500.78;
-        private double Customised = 2000.49;
-        private double Leather = 1003.90;
-        private double GPS = 180.29;
+    public double AccessoryCost;
+    public double GetAmount(){
+        AccessoryCost = iStereo + Modified + Customised + Leather + GPS;
+        return AccessoryCost;
+    }
+    
+       
 
     
 }
