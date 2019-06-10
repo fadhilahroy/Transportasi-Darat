@@ -15,6 +15,7 @@ public class Aksesoris {
         private double Customised = 2000.49;
         private double Leather = 1003.90;
         private double GPS = 180.29;
+        private double lcd = 200.88;
 
     public double getiStereo() {
         return iStereo;
