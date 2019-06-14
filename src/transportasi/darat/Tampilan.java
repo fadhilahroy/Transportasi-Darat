@@ -145,11 +145,11 @@ public class Tampilan extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(188, 188, 188));
-        jLabel11.setText("Year");
+        jLabel11.setText("Tahun");
 
         jLabel12.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(188, 188, 188));
-        jLabel12.setText("Cost");
+        jLabel12.setText("Harga");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -160,14 +160,15 @@ public class Tampilan extends javax.swing.JFrame {
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jCmBxSelectACar, 0, 272, Short.MAX_VALUE)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel12)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel11)
+                            .addComponent(jLabel12))
                         .addGap(18, 18, 18)
-                        .addComponent(jSelectaCarCost)
-                        .addGap(1, 1, 1))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel11)
-                        .addGap(18, 18, 18)
-                        .addComponent(jSelectaCarYear)))
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addComponent(jSelectaCarCost)
+                                .addGap(1, 1, 1))
+                            .addComponent(jSelectaCarYear))))
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
@@ -431,11 +432,11 @@ public class Tampilan extends javax.swing.JFrame {
 
         jLabel16.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(188, 188, 188));
-        jLabel16.setText("Year");
+        jLabel16.setText("Tahun");
 
         jLabel17.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(188, 188, 188));
-        jLabel17.setText("Cost");
+        jLabel17.setText("Harga");
 
         jCmBxTradeInCar.setBackground(new java.awt.Color(60, 63, 64));
         jCmBxTradeInCar.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -456,13 +457,13 @@ public class Tampilan extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jCmBxTradeInCar, 0, 264, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel17)
-                        .addGap(19, 19, 19)
-                        .addComponent(jTreadInCarCost))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel16)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel16)
+                            .addComponent(jLabel17))
                         .addGap(18, 18, 18)
-                        .addComponent(jTreadInCarYear)))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jTreadInCarCost)
+                            .addComponent(jTreadInCarYear))))
                 .addGap(17, 17, 17))
         );
         jPanel1Layout.setVerticalGroup(
