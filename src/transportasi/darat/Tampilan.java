@@ -135,7 +135,7 @@ public class Tampilan extends javax.swing.JFrame {
         jCmBxSelectACar.setBackground(new java.awt.Color(60, 63, 64));
         jCmBxSelectACar.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jCmBxSelectACar.setForeground(new java.awt.Color(188, 188, 188));
-        jCmBxSelectACar.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select a Car", "Ford", "BMW", "Porche", "Aston_Martin" }));
+        jCmBxSelectACar.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Pilih Mobil", "Ford", "BMW", "Porche", "Aston_Martin" }));
         jCmBxSelectACar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(188, 188, 188), 0));
         jCmBxSelectACar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -440,7 +440,7 @@ public class Tampilan extends javax.swing.JFrame {
         jCmBxTradeInCar.setBackground(new java.awt.Color(60, 63, 64));
         jCmBxTradeInCar.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jCmBxTradeInCar.setForeground(new java.awt.Color(188, 188, 188));
-        jCmBxTradeInCar.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Trade in Car" }));
+        jCmBxTradeInCar.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Jual Mobil" }));
         jCmBxTradeInCar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCmBxTradeInCarActionPerformed(evt);
