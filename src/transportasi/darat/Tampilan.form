@@ -606,7 +606,7 @@
             </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="5">
-                <StringItem index="0" value="Prove Of ID"/>
+                <StringItem index="0" value="Jenis ID"/>
                 <StringItem index="1" value="Pilot Licence"/>
                 <StringItem index="2" value="Driving Licence"/>
                 <StringItem index="3" value="Student ID"/>

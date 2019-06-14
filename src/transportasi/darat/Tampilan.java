@@ -279,7 +279,7 @@ public class Tampilan extends javax.swing.JFrame {
         jComboBox3.setBackground(new java.awt.Color(60, 62, 64));
         jComboBox3.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         jComboBox3.setForeground(new java.awt.Color(188, 188, 188));
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Prove Of ID", "Pilot Licence", "Driving Licence", "Student ID", "Passport" }));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Jenis ID", "Pilot Licence", "Driving Licence", "Student ID", "Passport" }));
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
