@@ -195,7 +195,7 @@ public class Tampilan extends javax.swing.JFrame {
 
         jLabel13.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(188, 188, 188));
-        jLabel13.setText("Tax");
+        jLabel13.setText("Pajak");
 
         jLabel14.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(188, 188, 188));
